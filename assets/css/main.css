@@ -130,10 +130,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
-			iframe{
-				width: 100%;
-				height:auto;
-			}
+			
 
 		}
 
@@ -142,10 +139,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-			iframe{
-				width: 100%;
-				height:auto;
-			}
+			
 
 		}
 
@@ -154,10 +148,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-			iframe{
-				width: 100%;
-				height:auto;
-			}
+			
 
 		}
 
@@ -3066,7 +3057,8 @@ input, select, textarea {
 			-ms-flex: 1;
 		}
 
-			.spotlights > section > .content > .inner {
+			.spotlights > section > .content > .
+{
 				-moz-transform: translateX(0) translateY(0);
 				-webkit-transform: translateX(0) translateY(0);
 				-ms-transform: translateX(0) translateY(0);
@@ -3231,6 +3223,10 @@ input, select, textarea {
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
 				}
+				iframe{
+				width: 100%;
+				height:auto;
+				}
 
 			}
 
@@ -3239,6 +3235,10 @@ input, select, textarea {
 				.wrapper > .inner {
 					width: 100%;
 				}
+				iframe{
+				width: 100%;
+				height:auto;
+				}
 
 			}
 
@@ -3246,6 +3246,10 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
+				}
+				iframe{
+				width: 100%;
+				height:auto;
 				}
 
 			}
