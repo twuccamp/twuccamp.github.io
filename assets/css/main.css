@@ -3561,11 +3561,11 @@ input, select, textarea {
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
-			font-size: 48px;// new change //
 		}
 
 			body.is-ie #sidebar > .inner {
 				height: 100%;
+				font-size: 100px;
 			}
 
 		#sidebar nav > ul {
