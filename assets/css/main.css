@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #7ED9F2;
+		background: #312450;
+		opacity: 1;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3525,7 +3526,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #7ED9F2;
 		cursor: default;
 		height: 100vh;
 		left: 0;
