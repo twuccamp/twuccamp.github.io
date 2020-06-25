@@ -3766,12 +3766,11 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 1em;
-			font-weight: bold;
+			font-size: 1.5em;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
 			outline: 0;
-			padding: 1.35em 0;
+			padding: 1em 0;
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -3788,7 +3787,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #A8A0A8;
 			}
 
 			#sidebar nav a:after {
