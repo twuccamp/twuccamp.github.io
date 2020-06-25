@@ -3741,6 +3741,7 @@ input, select, textarea {
 			display: block;
 			font-size: 1em;
 			font-weight: bold;
+			font-family: 'Noto Sans TC', sans-serif;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
 			outline: 0;
