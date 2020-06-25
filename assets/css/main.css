@@ -3224,8 +3224,8 @@ input, select, textarea {
 					padding: 4em 4em 2em 4em ;
 				}
 				iframe{
-				width: 100%;
-				height:auto;
+				width: 720px;
+				height: 405px;
 				}
 
 			}
@@ -3236,8 +3236,8 @@ input, select, textarea {
 					width: 100%;
 				}
 				iframe{
-				width: 100%;
-				height:auto;
+				width: 560px;
+				height: 315px;
 				}
 
 			}
@@ -3248,11 +3248,18 @@ input, select, textarea {
 					padding: 3em 2em 1em 2em ;
 				}
 				iframe{
-				width: 100%;
-				height:auto;
+				width: 325px;
+				height: 240px;
 				}
 
 			}
+			@media screen and (max-width: 480px) {
+				iframe{
+				width: 185px;
+				height: 105px;
+				}
+
+			}	
 
 		.wrapper.alt {
 			background-color: #261c3e;
@@ -3326,6 +3333,7 @@ input, select, textarea {
 					}
 
 			}
+
 
 		.wrapper.fade-up > .inner {
 			-moz-transform: translateY(0);
