@@ -125,25 +125,47 @@
 							<p>想要寫聯絡我們的文稿</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="">
+									<form id="submit-to-google-sheet" name="submit-to-google-sheet">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">姓名</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" palceholder="要怎麼稱呼你?" required>
 											</div>
 											<div class="field half">
 												<label for="email">電子郵件</label>
-												<input type="text" name="email" id="email" />
+												<input type="email" name="email" placeholder="你的電郵" required>
 											</div>
 											<div class="field">
 												<label for="message">訊息</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea name="message" rows="5" placeholder="寫一些東西吧!" required></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">傳送</a></li>
+											<li><button type="submit">傳送</button></li>
 										</ul>
 									</form>
+									<!--
+									<form name="submit-to-google-sheet">
+										<div class="field half">
+											<label for="name">姓名</label>
+											<input type="text" name="name">
+										</div>
+										<input name="question" type="text" placeholder="resp"required>
+										<input name="email" type="email" placeholder="Email" required>
+										<button type="submit">傳送</button>
+									  </form>
+									-->  
+									  <script>
+										const scriptURL = 'https://script.google.com/macros/s/AKfycby-O1tjXXJ27VZnR2GRb2pIM91beVsEzwOPMP4i01P7fP-nYRRN/exec'
+										const form = document.forms['submit-to-google-sheet']
+									  
+										form.addEventListener('submit', e => {
+										  e.preventDefault()
+										  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+											.then(response => console.log('Success!', response))
+											.catch(error => console.error('Error!', error.message))
+										})
+									  </script>
 								</section>
 								<section>
 									<ul class="contact">
