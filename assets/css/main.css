@@ -71,10 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance:none;
 }
-iframe{
-	width: 100%;
-	height:auto;
-}
+
 
 /* Basic */
 
@@ -133,6 +130,10 @@ iframe{
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+			iframe{
+				width: 100%;
+				height:auto;
+			}
 
 		}
 
@@ -141,6 +142,10 @@ iframe{
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			iframe{
+				width: 100%;
+				height:auto;
+			}
 
 		}
 
@@ -148,6 +153,10 @@ iframe{
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+			iframe{
+				width: 100%;
+				height:auto;
 			}
 
 		}
