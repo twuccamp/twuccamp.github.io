@@ -131,19 +131,19 @@
 										<div class="fields">
 											<div class="field half">
 												<label for="name">姓名</label>
-												<input type="text" name="name" palceholder="要怎麼稱呼你?" required>
+												<input type="text" name="name" id="name" palceholder="要怎麼稱呼你?" required>
 											</div>
 											<div class="field half">
 												<label for="email">電子郵件</label>
-												<input type="email" name="email" placeholder="你的電郵" required>
+												<input type="email" name="email" id="email" placeholder="你的電郵" required>
 											</div>
 											<div class="field">
 												<label for="message">訊息</label>
-												<textarea name="message" rows="5" placeholder="寫一些東西吧!" required></textarea>
+												<textarea name="message" id="message" rows="5" placeholder="寫一些東西吧!" required></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><button type="submit">傳送</button></li>
+											<li><button id="sendResponse" type="submit">傳送</button></li>
 										</ul>
 									</form>
 									<!--
@@ -166,6 +166,15 @@
 										  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 											.then(response => console.log('Success!', response))
 											.catch(error => console.error('Error!', error.message))
+
+											var name = document.getElementById("name");
+											var email = document.getElementById("email");
+											var message = document.getElementById("message");
+											name.value="";
+											email.value="";
+											message.value="";
+											alert("傳送成功");
+											
 										})
 									  </script>
 								</section>
