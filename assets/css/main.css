@@ -3833,6 +3833,7 @@ input, select, textarea {
 				left: 0;
 				line-height: 3.5em;
 				overflow: hidden;
+				font-size: 0.8em;
 				padding: 0;
 				text-align: center;
 				top: 0;
