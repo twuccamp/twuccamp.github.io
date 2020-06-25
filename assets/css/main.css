@@ -3091,9 +3091,6 @@ input, select, textarea {
 			transform: translateX(-1em);
 			opacity: 0;
 		}
-		#special{
-			height: 600px;
-		}
 		.video-container{
 			position: relative;
 			padding-bottom: 56.25%;
