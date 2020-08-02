@@ -5,5 +5,5 @@ window.setInterval(function(){
 		imgs[i].style.display="none";
 	imgs[id].style.display="block";
 	id++;
-	id%=5;
+	id%=imgs.length;
 },2500);
