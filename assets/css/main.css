@@ -3952,6 +3952,7 @@ input, select, textarea {
 	}
 }
 .images-container{
+	border-radius: 10px;
 	overflow: hidden;
 }
 .images{
