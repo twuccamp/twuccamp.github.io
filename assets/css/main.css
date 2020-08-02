@@ -3930,6 +3930,7 @@ input, select, textarea {
 .images-container{
 	width: 70%;
 	height: 50%;
+	overflow: hidden;
 }
 .images{
 	width: 100%;
