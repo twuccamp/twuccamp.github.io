@@ -186,7 +186,7 @@
 
 				}
 			});
-	var imgs=document.getElementsByClassName("image");
+	var imgs=document.getElementsByClassName("images");
 	var id=1;
 	window.setInterval(function(){
 		for(let i=0;i<imgs.length;i++)
